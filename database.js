@@ -9,7 +9,7 @@ let config = {
   };
   firebase.initializeApp(config);
 
-    let db = firebase.firestore():
+    let db = firebase.firestore();
 
     function write(nombre, decisionTomada, callback){
         // Definimos primero el nombre de la bdd que usaremos (nombre del documento), en este caso sera el de la variable nombre
@@ -93,5 +93,5 @@ let config = {
 
     document.getElementById("opc2").onclick = function(){
         let decisionTomada = document.getElementById("txt2").innerHTML;
-        write(decisionActual, decisionTomada, function(){window.location.href = "02.html"})
+        write(decisionActual, decisionTomada, function(){window.location.href = "#"})
     };
