@@ -20,8 +20,8 @@ color: rgb(197,118,6);
 prevent stretch from browser
 center video          */
 .video-container video {
-min-width: 120%;
-min-height: 120%;
+min-width: 100%;
+min-height: 100%;
 
 width: auto;
 height: auto;
