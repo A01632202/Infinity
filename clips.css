@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+html, body {
+background-image:url("IWBackground.png");
+background-size: cover;
+width:100%;
+height:100%;
+font-family: 'Kanit', sans-serif;
+color: rgb(197,118,6);
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height:100%;
+
+}
+/*Set video size
+prevent stretch from browser
+center video          */
+.video-container video {
+min-width: 120%;
+min-height: 120%;
+
+width: auto;
+height: auto;
+
+position:fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%)
+}
+footer {
+  background-color: rgba(0,0,0,0.05);
+  padding: 2rem;
+}
+a {
+text-decoration: none;
+color: white;
+
+}
