@@ -81,7 +81,7 @@ let config = {
     }
 
     /* Obtenemos el valor de la decisión actual, lo obtenemos aqui para obtenerlo solo una vez en vez de dos veces*/
-    let decisionActual = document.getElementById("nombre_decision").value;
+    let decisionActual = document.getElementById("timeline").value;
 
     // Obtenemos el id opc1 y le creamos una funcion onclick
     document.getElementById("opc1").onclick= function(){
